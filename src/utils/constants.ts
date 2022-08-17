@@ -1,7 +1,7 @@
-import { Environment, Target } from "./models";
+import { Environment, Platform } from './models';
 
 export const envPrefix = '.env';
 
 export const environments: Environment[] = [Environment.development, Environment.staging, Environment.production];
 
-export const targets: Target[] = [Target.android, Target.ios];
+export const targets: Platform[] = [Platform.android, Platform.ios];
